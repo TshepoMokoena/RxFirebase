@@ -103,6 +103,15 @@ Pod::Spec.new do |s|
 
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
+    s.dependency 'RxSwift', '~> 3.0'
+    s.dependency 'Firebase/Core'
+    s.dependency 'Firebase'
+    s.dependency 'Firebase/Auth'
+    s.dependency 'Firebase/Database'
+    s.dependency 'Firebase/Storage'
+end
+
+
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
