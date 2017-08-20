@@ -58,7 +58,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+   s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -90,7 +90,6 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
-    s.resources = "RxFirebase/**/*.{png,jpeg,jpg,storyboard,xib}"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -109,7 +108,7 @@ Pod::Spec.new do |s|
     s.dependency 'Firebase/Auth'
     s.dependency 'Firebase/Database'
     s.dependency 'Firebase/Storage'
-end
+
 
 
 
